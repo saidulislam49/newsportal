@@ -1,5 +1,3 @@
-/***
-
 <h2>Instruction Install Process</h2>
 <ol>
     <li>composer update</li>
@@ -11,10 +9,6 @@
     <li>npm install npm run dev php artisan serve</li>
 </ol>
 
-
-
-
-**/
 
 
 
