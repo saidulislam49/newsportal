@@ -1,14 +1,16 @@
 /***
 
-Instruction Install Process
+<h2>Instruction Install Process</h2>
+<ol>
+    <li>composer update</li>
+    <li>cp .env.example .env</li>
+    <li>php artisan key:generate</li>
+    <li>configure database on .env file(create a database and give database credential)</li>
+    <li>php artisan migrate</li>
+    <li>php artisan db:seed</li>
+    <li>npm install npm run dev php artisan serve</li>
+</ol>
 
-composer update
-cp .env.example .env
-php artisan key:generate
-configure database on .env file(create a database and give database credential)
-php artisan migrate
-php artisan db:seed
-npm install npm run dev php artisan serve
 
 
 
